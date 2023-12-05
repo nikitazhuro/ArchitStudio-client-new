@@ -1,0 +1,7 @@
+.calcPageCards {
+  height: calc(100% - 34px);
+  overflow-y: auto;
+}
+.cardItem:last-child {
+  margin-bottom: 0;
+}

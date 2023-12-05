@@ -1,0 +1,28 @@
+.registrationOptions {
+  border-radius: 12px;
+  padding: 8px;
+  border-bottom: 1px solid var(--light-1);
+  background-color: var(--light-bg-1);
+
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  margin-bottom: 0.75rem;
+}
+
+.registrationOptionsContent {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.option {
+  width: 49%;
+  height: 32px;
+}
+
+.option_active {
+  background-color: var(--blue-1);
+  color: white;
+}

@@ -1,0 +1,11 @@
+.googleAuthButton {
+  display: flex;
+  background-color: transparent;
+  justify-content: center;
+  border-color: #c8c8c8;
+}
+
+.googleAuthButton:hover {
+  border-color: #3E4D80;
+  background-color: transparent;
+}

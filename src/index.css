@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica;
+
+  --light-bg-1: #F7F7FA;
+  --light-bg-2: #fff;
+  --light-bg-3: #E6E9F1;
+
+  --light-1: #EDEDED;
+
+  --blue-1: #2D3044;
+
+  --dark-1: #202020;
+}
+
+body {
+  color: #fff;
+  background-color: #000;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 46px;
+  font-family: Bebas Neue, sans-serif;
+}
+
+h4 {
+  font-size: 28px;
+}
+
+h5 {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.signInRootModule {
+  height: 650px;
+}
+
+.ant-modal-mask {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+.signInRootModule .ant-modal-content, .signInRootModule .ant-modal-content .ant-modal-body {
+  height: 100%;
+  padding: 0;
+  border-radius: 32px;
+}
+
+::-webkit-scrollbar {
+  width: 9px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(155, 155, 155, 0.5);
+  border-radius: 20px;
+  border: transparent;
+}
+
+/* ant tables */
+.ant-table-wrapper {
+  width: 100%;
+}
+
+.ant-table-wrapper table {
+  width: 100%;
+  border-spacing: 0 20px;
+  border-radius: 0;
+}
+
+.ant-table-wrapper .ant-table-tbody >tr >td {
+  border: none;
+  color: var(--blue-1);;
+  /* border-top: 1px solid var(--blue-1);
+  border-bottom: 1px solid var(--blue-1); */
+  font-family: 'PT Mono', monospace;
+}
+/* .ant-table-wrapper .ant-table-tbody >tr >td:first-child {
+  border-left: 1px solid var(--blue-1);
+}
+.ant-table-wrapper .ant-table-tbody >tr >td:last-child {
+  border-right: 1px solid var(--blue-1);
+} */
+.ant-table-wrapper .ant-table-tbody >tr.ant-table-row:hover>td {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.1)!important;
+  border-color: #00c3b5;
+}
+.ant-table-row:hover {
+  background-color: #6897ab;
+}
+.ant-table-row:nth-child(odd) {
+  background-color: var(--light-bg-3);;
+}
+
+.ant-table-row:nth-child(even) {
+  background-color: var(--light-bg-1);;
+}
+
+.ant-table-wrapper td.ant-table-column-sort {
+  background-color: var(--blue-1);
+}
+
+.ant-table-wrapper .ant-table-thead >tr>th {
+  border: none;
+  color: var(--blue-1);
+  background-color: white;
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 700;
+}
+
+.ant-table-wrapper .ant-table-thead >tr>th:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before {
+  background-color: var(--blue-1);
+}

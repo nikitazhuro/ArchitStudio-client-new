@@ -1,0 +1,129 @@
+.page {
+  width: 100vw;
+  height: 100vh;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+}
+
+.pageWithSidebar {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.sidebarRoot {
+  width: 260px;
+  height: 100%;
+  overflow-x: hidden;
+  transition: width 195ms cubic-bezier(0.4, 0, 0.6, 1) 0ms;
+
+  background-color: var(--light-bg-1);
+  border-right: 1px solid var(--light-1);
+}
+
+.sidebarRootHidden {
+  width: 56px;
+  height: 100%;
+  overflow-x: hidden;
+  transition: width 195ms cubic-bezier(0.4, 0, 0.6, 1) 0ms;
+
+  background-color: var(--light-bg-1);
+}
+
+.pageWrapper {
+  width: calc(100% - 260px);
+  transition: width 195ms cubic-bezier(0.4, 0, 0.6, 1) 0ms;
+  color: var(--dark-1);
+
+  background-color: var(--light-bg-2);
+}
+
+.sidebarContent {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pageWrapperWithHiddenMenu {
+  width: calc(100vw - 56px);
+  transition: width 195ms cubic-bezier(0.4, 0, 0.6, 1) 0ms;
+
+  background-color: var(--light-bg-2);
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  padding-left: 1.5rem;
+}
+
+.title img {
+  margin-right: 6px;
+}
+
+.navigation {
+  padding: 0 16px;
+}
+
+.homePage {
+  border-bottom: 0.5px solid #7a7a7a;
+}
+.navItem {
+  display: flex;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 20px;
+  align-items: center;
+  color: var(--dark-1);
+  margin-bottom: 10px;
+  border-radius: 40px;
+  padding: 12px 20px;
+
+  transition: 0.2s ease all;
+}
+
+.navItemIcon {
+  width: 25px;
+  height: 24px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1.5rem;
+}
+
+.navItem:hover {
+  background-color: var(--blue-1);
+  color: #fff;
+  border-radius: 40px;
+}
+
+.navItemActive {
+  background-color: var(--blue-1);
+  color: #fff;
+
+  border-radius: 40px;
+
+  transition: 0.2s ease all;
+
+}
+.companyName {
+  padding: 12px 20px;
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 16px;
+
+  color: var(--blue-1);
+}
+.shortDescription {
+  color: var(--blue-1);
+  text-transform: uppercase;
+  font-family: Bebas Neue, sans-serif;
+  font-size: 21px;
+  font-weight: 500;
+}

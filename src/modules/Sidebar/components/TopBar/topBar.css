@@ -1,0 +1,19 @@
+.topMenu { 
+  height: 70px;
+  width: 100%;
+  background-color: var(--light-bg-2);
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--light-1);
+
+  padding: 0 25px;
+}
+
+.navItemTitle {
+  min-width: 0px;
+  white-space: nowrap;
+}
+
+.profile {
+  margin-left: auto;
+}

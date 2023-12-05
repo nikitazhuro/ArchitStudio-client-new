@@ -1,0 +1,11 @@
+.calcPageHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 46px;
+  color: var(--blue-1);
+}
+
+.calcPageHeader svg {
+  margin-left: 9px;
+}

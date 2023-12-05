@@ -1,0 +1,59 @@
+.calcPageRoot {
+  display: flex;
+  flex-direction: column;
+
+  height: 100%;
+  width: 100%;
+}
+
+.calcPageCards {
+  padding: 25px;
+}
+
+.menu {
+  padding-bottom: 10px;
+  display: flex;
+}
+
+.calcPageOptions {
+  display: flex;
+  flex-direction: column;
+  max-height: 315px;
+  transition: 0.5s all ease;
+  overflow-y: hidden;
+  border-bottom: 1px solid var(--light-1);
+}
+
+.calcPageCards {
+  transition: 0.5s all ease;
+  height: calc(100% - 276px);
+}
+
+.full_screen_cards {
+  height: calc(100% - 1px)
+}
+
+.hiddenOptions {
+  max-height: 0;
+  transition: 0.5s all ease;
+}
+
+.full_screen_icon {
+  transition: 0.5s ease all;
+  cursor: pointer;
+  display: flex;
+}
+
+.full_screen_icon:hover svg{
+  color: var(--blue-1);
+}
+
+.full_screen_icon_active {
+  transform: rotate(180deg);
+}
+
+.qwe {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+}

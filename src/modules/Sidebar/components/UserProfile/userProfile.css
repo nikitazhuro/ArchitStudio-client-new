@@ -1,0 +1,24 @@
+.userName {
+  margin-left: 16px;
+  font-family: Helvetica;
+}
+
+.user_profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user_dropdown_title {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.user_dropdown_title:hover {
+  color: var(--blue-1);
+}
+
+.icon {
+  margin-left: 7px;
+}

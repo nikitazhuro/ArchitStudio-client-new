@@ -1,0 +1,7 @@
+.registrationInputList {
+  display: flex;
+  flex-direction: column;
+}
+.auth_input {
+  margin-bottom: 16px;
+}

@@ -1,0 +1,27 @@
+.loginForm {
+  width: 100%;
+  max-width: 444px;
+}
+
+.loginInputList {
+  display: flex;
+  flex-direction: column;
+}
+
+.passwordRecovery {
+  text-decoration: underline;
+  font-weight: 600;
+  font-size: 13px;
+  color: #c8c8c8;
+}
+
+.passwordRecovery:hover {
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 13px;
+  color: black;
+}
+
+.auth_input {
+  margin-bottom: 16px;
+}

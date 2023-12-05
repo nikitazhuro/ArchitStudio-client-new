@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "commonJS",
+    "lib": ["es6", "dom"],
+    "target": "ES6",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
+  },
+  "include": ["./src"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}

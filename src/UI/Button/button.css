@@ -1,0 +1,50 @@
+.button {
+  border-radius: 40px;
+  transition: all 0.5s;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+}
+
+.primary {
+  border: 1px solid var(--blue-1);
+  background-color: var(--blue-1);
+  color: white;
+}
+
+.primary:hover {
+  background-color: #3E4D80;
+}
+
+.secondary {
+  border: 1px solid var(--blue-1);
+  background-color: transparent;
+  color: var(--blue-1);
+}
+
+.secondary:hover {
+  background-color: var(--light-bg-1);
+}
+
+.option {
+  background-color: white;
+  color: var(--blue-1);
+  border-radius: 8px;
+  padding: 4px 20px;
+  border: none;
+}
+
+.small {
+  padding: 9px 24px;
+}
+
+.medium {
+  padding: 12px 24px;
+}
+
+.large {
+  padding: 14px 83px;
+}
