@@ -27,7 +27,7 @@ const CalcPageRoot = () => {
         </div>
       </div>
       <div
-        className={`calcPageCards ${hiddenOptions ? 'full_screen_cards' : ''}`}
+        className={`calcPageCardsRoot ${hiddenOptions ? 'full_screen_cards' : ''}`}
       >
         {!isCardsEmpty && (
           <div className='menu'>

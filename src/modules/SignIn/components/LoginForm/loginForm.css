@@ -25,3 +25,13 @@
 .auth_input {
   margin-bottom: 16px;
 }
+
+.forget-password {
+  color: #C8C8C8;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 21px;
+  text-decoration-line: underline;
+  margin-bottom: 40px;
+}

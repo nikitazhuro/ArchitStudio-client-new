@@ -20,7 +20,7 @@ const SignInRoot: React.FC<ISignInRoot> = () => {
     <Modal
       className="signInRootModule"
       open={isOpen}
-      width={900}
+      width={1024}
       centered
       destroyOnClose
       onCancel={handleCancel}

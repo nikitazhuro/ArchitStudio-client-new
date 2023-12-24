@@ -1,11 +1,12 @@
 .topMenu { 
-  height: 70px;
+  height: 96px;
   width: 100%;
-  background-color: var(--light-bg-2);
   display: flex;
   align-items: center;
   border-bottom: 1px solid var(--light-1);
-
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  background:#F7F7FA;
   padding: 0 25px;
 }
 

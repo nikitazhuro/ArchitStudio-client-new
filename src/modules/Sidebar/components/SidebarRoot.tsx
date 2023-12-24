@@ -3,10 +3,10 @@ import { useNavigate, useLocation } from 'react-router-dom';
 
 import './sidebarRoot.css';
 
-// import Calc from '@/lib/assets/calc.svg';
-// import Projects from '@/lib/assets/projects.svg';
-// import ContactUs from '@/lib/assets/contact-us.svg';
-// import FAQ from '@/lib/assets/faq.svg';
+import Calc from '../../../lib/assets/calc.svg';
+import Projects from '../../../lib/assets/projects.svg';
+import ContactUs from '../../../lib/assets/contact-us.svg';
+import FAQ from '../../../lib/assets/faq.svg';
 import TopBar from './TopBar/TopBar';
 
 import { ISidebarRoot } from '../types';
@@ -93,7 +93,7 @@ const SidebarRoot: React.FC<ISidebarRoot> = (props) => {
                   }
                 >
                   <div className='navItemIcon'>
-                    {/* <Calc width={25} height={24} /> */}
+                    <Calc width={25} height={24} />
                   </div>
                   <div className='navItemTitle'>Calculator</div>
                 </div>
@@ -107,7 +107,7 @@ const SidebarRoot: React.FC<ISidebarRoot> = (props) => {
                   }
                 >
                   <div className='navItemIcon'>
-                    {/* <Projects /> */}
+                    <Projects />
                   </div>
                   <div className='navItemTitle'>Projects</div>
                 </div>
@@ -123,7 +123,7 @@ const SidebarRoot: React.FC<ISidebarRoot> = (props) => {
                 }
               >
                 <div className='navItemIcon'>
-                  {/* <ContactUs /> */}
+                  <ContactUs />
                 </div>
                 <div className='navItemTitle'>Contact us</div>
               </div>
@@ -131,12 +131,12 @@ const SidebarRoot: React.FC<ISidebarRoot> = (props) => {
                 onClick={() => router('/faq')}
                 className={
                   activeRoute === 'faq'
-                  ? 'navItem navItemActive'
-                  : 'navItem'
+                    ? 'navItem navItemActive'
+                    : 'navItem'
                 }
               >
                 <div className='navItemIcon'>
-                  {/* <FAQ /> */}
+                  <FAQ />
                 </div>
                 <div className='navItemTitle'>FAQ</div>
               </div>
@@ -151,7 +151,9 @@ const SidebarRoot: React.FC<ISidebarRoot> = (props) => {
           }
         >
           <TopBar />
-          {props.children}
+          <div className='main-page-content'>
+            {props.children}
+          </div>
         </div>
       </div>
     </div>

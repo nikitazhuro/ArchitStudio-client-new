@@ -24,7 +24,7 @@ const UserAuth = () => {
       <Button
         className='signup'
         onClick={signUp}
-
+        mode="secondary"
         size="small"
       >
         Sign up

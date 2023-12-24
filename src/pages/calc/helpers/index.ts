@@ -21,7 +21,7 @@ export const defaultFieldsValues = {
   customFields: [
     {
       id: Date.now(),
-      raws: [],
+      raws: [] as IRaw[]
     },
   ],
   frontFields: [

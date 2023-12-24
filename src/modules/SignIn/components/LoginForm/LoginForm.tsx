@@ -65,6 +65,9 @@ const LoginForm: React.FC = () => {
           onChange={onChangeHandler('password')}
         />
       </div>
+      <div className='forget-password'>
+        <span>Forget password?</span>
+      </div>
       <Authorization submitText="Sign in" authHandler={loginUserRequest} />
     </div>
   );

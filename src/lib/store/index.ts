@@ -11,7 +11,7 @@ const rootReducer = combineReducers({
   [projectApi.reducerPath]: projectApi.reducer,
 
   [userSlice.name]: userSlice.reducer,
-  // [calcPageSlice.name]: calcPageSlice.reducer,
+  [calcPageSlice.name]: calcPageSlice.reducer,
   [signInSlice.name]: signInSlice.reducer,
 });
 

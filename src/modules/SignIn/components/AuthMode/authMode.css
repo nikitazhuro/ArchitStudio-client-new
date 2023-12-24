@@ -7,8 +7,8 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-
-  margin-bottom: 0.75rem;
+  margin: 14px 0;
+  height: 48px;
 }
 
 .registrationOptionsContent {
